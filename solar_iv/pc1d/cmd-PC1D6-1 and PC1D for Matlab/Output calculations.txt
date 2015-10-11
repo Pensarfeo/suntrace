@@ -1,0 +1,87 @@
+define: Jsc
+name: Short circuit current (mA/cm^2)
+
+V 	 = [[Base Voltage]]
+I 	 = [[Base Current]]
+A 	 = parameter 212# 
+J 	 = I/A
+
+[V_ ind] = unique(V)
+J_    	 = J(ind)
+
+Jsc	 = abs(1000*interp1(V_,J_,0))
+
+
+define: Voc
+name: Open circuit voltage (V)
+
+V 	 = [[Base Voltage]]
+I	 = [[Base Current]]
+
+[I_ ind] = unique(I)
+V_ 	 = V(ind)
+
+Voc	 = interp1(I_,V_,0)
+
+
+define: FF
+name: Fill factor (%)
+
+V 	 = [[Base Voltage]]
+I	 = [[Base Current]]
+P	 = I.*V
+
+[I1 ind] = unique(I)
+V1	 = V(ind)
+[V2 ind] = unique(V)
+I2	 = I(ind)
+
+Voc 	 = interp1(I1,V1,0)
+Isc      = abs(interp1(V2,I2,0))
+Vmp      = abs(mean(V(P == min(P))))
+Imp      = abs(mean(I(P == min(P))))
+FF       = 100*mean((Vmp*Imp) / (Voc*Isc))
+
+define: eta
+name: Cell efficiency (%)
+
+V 	 = [[Base Voltage]]
+I 	 = [[Base Current]]
+A 	 = parameter 212# 
+Int 	 = parameter 249# 
+P 	 = I.*V
+eta      = 100*abs(min(P))/(Int*A)
+
+
+
+define: tau_eff 
+name: Steady state effective lifetime (µs)
+ 
+x 	    = [[Distance from Front]]
+G_cum 	    = [[Cumulative Photogeneration]]
+delta_n     = [[Excess Electron Density]]
+
+x	    = x*1e-4
+W	    = x(end)
+G	    = G_cum(end)/ W
+tau_eff	    = 1e6 * delta_n((abs(x-W/2) == min(abs(x-W/2)))) / G
+
+
+
+
+define: J0e
+name: Emitter saturation current (fA/cm^2)
+
+x 	= [[Distance from Front]]
+Na 	= [[Acceptor Doping Density]]
+p	= [[Hole Density]]
+Jp	= [[Hole Current Density]]
+
+V_ss  	= parameter 281# 
+
+Vt 	= 0.0258519972
+
+x_SCR   = x(p < 0.9*Na)
+Jmin    = -Jp(x == max(x_SCR))
+
+J0e	= 1e15*Jmin/(exp(V_ss/Vt)-1)

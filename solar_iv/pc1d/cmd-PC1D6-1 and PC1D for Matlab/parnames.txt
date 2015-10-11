@@ -1,0 +1,561 @@
+1	CProblem::m_FileVersion=
+2	CProblem::m_Description=
+3	CProblem::m_Status:	
+4	CStatus::state=	
+5	CStatus::time_step=	
+6	CStatus::time=	
+7	CProblem::pD:	
+8	CDevice::m_FrontRfl:	
+9	CReflectance::m_bCoated=	Reflectance, front - Coated? (0 = No, 1 = Yes)					0
+10	CReflectance::m_bExternal=	
+11	CReflectance::m_Filename=	
+12	CReflectance::m_Fixed=		Reflectance, front - Fixed value						1
+13	CReflectance::m_Broadband=	Reflectance, front - Broadband							0
+14	CReflectance::m_Internal1=	Reflectance, front - Internal reflectance (1st bounce)				1
+15	CReflectance::m_Internal2=	Reflectance, front - Internal reflectance (2nd bounce)				1
+16	CReflectance::m_Rough=		Reflectance, front - Rough? (0 = No, 1 = Yes)					0
+17	CReflectance::num_layers=	Reflectance, front - Number of ARC layers 					0
+18	CReflectance::m_Thick[0]=	Reflectance, front - Thickness, layer 1 (nm)					1
+19	CReflectance::m_Index[0]=	Reflectance, front - Refractive index, layer 1					1
+20	CReflectance::m_Thick[1]=	Reflectance, front - Thickness, layer 2 (nm)					1
+21	CReflectance::m_Index[1]=	Reflectance, front - Refractive index, layer 2					1
+22	CReflectance::m_Thick[2]=	Reflectance, front - Thickness, layer 3 (nm)					1
+23	CReflectance::m_Index[2]=	Reflectance, front - Refractive index, layer 3					1
+24	CDevice::m_RearRfl:	
+25	CReflectance::m_bCoated=	Reflectance, rear - Coated? (0 = No, 1 = Yes)					0
+26	CReflectance::m_bExternal=	
+27	CReflectance::m_Filename=	
+28	CReflectance::m_Fixed=		Reflectance, rear - Fixed value							1
+29	CReflectance::m_Broadband=	Reflectance, rear - Broadband							0
+30	CReflectance::m_Internal1=	Reflectance, rear - Internal reflectance (1st bounce)				1
+31	CReflectance::m_Internal2=	Reflectance, rear - Internal reflectance (2nd bounce)				1
+32	CReflectance::m_Rough=		Reflectance, rear - Rough? (0 = No, 1 = Yes)					0
+33	CReflectance::num_layers=	Reflectance, rear - Number of ARC layers 					0
+34	CReflectance::m_Thick[0]=	Reflectance, rear - Thickness, layer 1 (nm)					1
+35	CReflectance::m_Index[0]=	Reflectance, rear - Refractive index, layer 1					1
+36	CReflectance::m_Thick[1]=	Reflectance, rear - Thickness, layer 2 (nm)					1
+37	CReflectance::m_Index[1]=	Reflectance, rear - Refractive index, layer 2					1
+38	CReflectance::m_Thick[2]=	Reflectance, rear - Thickness, layer 3 (nm)					1
+39	CReflectance::m_Index[2]=	Reflectance, rear - Refractive index, layer 3					1
+40	CDevice::num_lumped=	
+41	CDevice::m_Lumped[0]:	
+42	CLumped::m_Enable=		Circuit -  Enable internal shunt 1? (0 = No, 1 = Yes)				0
+43	CLumped::m_Xa=	
+44	CLumped::m_Xc=		
+45	CLumped::m_Type=		Circuit - Internal shunt #1 type (0 = conductor, 1 = diode, 2 = capacitor)	0
+46	CLumped::m_n=			Circuit - Internal shunt #1 ideality factor (diode)				1
+47	CLumped::m_Value=		Circuit - Internal shunt #1 value (For conductor: in siemens)			1
+48	CDevice::m_Lumped[1]:	
+49	CLumped::m_Enable=		Circuit -  Enable internal shunt 2? (0 = No, 1 = Yes)				0
+50	CLumped::m_Xa=	
+51	CLumped::m_Xc=	
+52	CLumped::m_Type=		Circuit - Internal shunt #2 type (0 = conductor, 1 = diode, 2 = capacitor)	0
+53	CLumped::m_n=			Circuit - Internal shunt #2 ideality factor (diode)				1
+54	CLumped::m_Value=		Circuit - Internal shunt #2 value (For conductor: in siemens)			1
+55	CDevice::m_Lumped[2]:	
+56	CLumped::m_Enable=	
+57	CLumped::m_Xa=	
+58	CLumped::m_Xc=	
+59	CLumped::m_Type=	
+60	CLumped::m_n=	
+61	CLumped::m_Value=	
+62	CDevice::m_Lumped[3]:	
+63	CLumped::m_Enable=	
+64	CLumped::m_Xa=	
+65	CLumped::m_Xc=	
+66	CLumped::m_Type=	
+67	CLumped::m_n=	
+68	CLumped::m_Value=	
+69	CDevice::m_Filename=	
+70	CDevice::m_bModified=	
+71	In CDevice: version=	
+72	CDevice::m_CurrentRegion=	
+73	CDevice::m_NumRegions=	
+74	CDevice::pList element 0:	
+75	CRegion::m_Mat:	
+76	CMaterial::m_Elec:	
+77	CMobility::Fixed=	
+78	CMobility::Max=	
+79	CMobility::MajMin=	
+80	CMobility::MajNref=	
+81	CMobility::MajAlpha=	
+82	CMobility::MinMin=	
+83	CMobility::MinNref=	
+84	CMobility::MinAlpha=	
+85	CMobility::B1=	
+86	CMobility::B2=	
+87	CMobility::B3=	
+88	CMobility::B4=	
+89	CMobility::Vmax=	
+90	CMaterial::m_Hole:	
+91	CMobility::Fixed=	
+92	CMobility::Max=	
+93	CMobility::MajMin=	
+94	CMobility::MajNref=	
+95	CMobility::MajAlpha=	
+96	CMobility::MinMin=	
+97	CMobility::MinNref=	
+98	CMobility::MinAlpha=	
+99	CMobility::B1=	
+100	CMobility::B2=	
+101	CMobility::B3=	
+102	CMobility::B4=	
+103	CMobility::Vmax=	
+104	CMaterial::m_Filename=	
+105	CMaterial::m_bModified=	
+106	CMaterial::m_FileVersion=	
+107	CMaterial::m_FixedMobility=	
+108	CMaterial::m_Permittivity=	
+109	CMaterial::m_BandGap=	
+110	CMaterial::m_Affinity=	
+111	CMaterial::m_NcNv=	
+112	CMaterial::m_ni200=	
+113	CMaterial::m_ni300=	
+114	CMaterial::m_ni400=	
+115	CMaterial::m_BGNnNref=	
+116	CMaterial::m_BGNnSlope=	
+117	CMaterial::m_BGNpNref=	
+118	CMaterial::m_BGNpSlope=	
+119	CMaterial::m_Cn=	
+120	CMaterial::m_Cp=	
+121	CMaterial::m_Cnp=	
+122	CMaterial::m_BB=	
+123	CMaterial::m_BulkNrefN=	
+124	CMaterial::m_BulkNalphaN=	
+125	CMaterial::m_BulkNrefP=	
+126	CMaterial::m_BulkNalphaP=	
+127	CMaterial::m_BulkTalpha=	
+128	CMaterial::m_BulkEref=	
+129	CMaterial::m_BulkEgamma=	
+130	CMaterial::m_SurfNrefN=	
+131	CMaterial::m_SurfNalphaN=	
+132	CMaterial::m_SurfNrefP=	
+133	CMaterial::m_SurfNalphaP=	
+134	CMaterial::m_SurfTalpha=	
+135	CMaterial::m_IndexFilename=	
+136	CMaterial::m_IndexExternal=	
+137	CMaterial::m_FixedIndex=	
+138	CMaterial::m_AbsFilename=	
+139	CMaterial::m_AbsExternal=	
+140	CMaterial::m_AbsEd1=	
+141	CMaterial::m_AbsEd2=	
+142	CMaterial::m_AbsEi1=	
+143	CMaterial::m_AbsEi2=	
+144	CMaterial::m_AbsEp1=	
+145	CMaterial::m_AbsEp2=	
+146	CMaterial::m_AbsAd1=	
+147	CMaterial::m_AbsAd2=	
+148	CMaterial::m_AbsA11=	
+149	CMaterial::m_AbsA12=	
+150	CMaterial::m_AbsA21=	
+151	CMaterial::m_AbsA22=	
+152	CMaterial::m_AbsTcoeff=	
+153	CMaterial::m_AbsToffset=	
+154	CMaterial::m_FreeCarrEnable=	
+155	CMaterial::m_FreeCarrCoeffN=	
+156	CMaterial::m_FreeCarrPowerN=	
+157	CMaterial::m_FreeCarrCoeffP=	
+158	CMaterial::m_FreeCarrPowerP=	
+159	CMaterial::m_HurkxEnable=	
+160	CMaterial::m_HurkxPrefactor=	
+161	CMaterial::m_HurkxFgamma=	
+162	CRegion::m_FrontDiff1:	
+163	In CDiffusion: ver_num=	
+164	CDiffusion::m_Enable=		Doping, front -  Enable? (1 or 0)						0
+165	CDiffusion::m_Type=		Doping, front - Type (n = 0, p = 1)						0
+166	CDiffusion::m_Profile=		Doping, front - Profile (0 = uniform, 1 = exp, 2 = gauss, 3 = erfc)		0
+167	CDiffusion::m_Npeak=		Doping, front - Peak concentration						1
+168	CDiffusion::m_Depth=		Doping, front - Depth factor							1
+169	CDiffusion::m_Xpeak=		Doping, front - Peak position							1
+170	CRegion::m_FrontDiff2:	
+171	In CDiffusion: ver_num=	
+172	CDiffusion::m_Enable=	
+173	CDiffusion::m_Type=	
+174	CDiffusion::m_Profile=	
+175	CDiffusion::m_Npeak=	
+176	CDiffusion::m_Depth=	
+177	CDiffusion::m_Xpeak=	
+178	CRegion::m_RearDiff1:	
+179	In CDiffusion: ver_num=		
+180	CDiffusion::m_Enable=		Doping, rear -  Enable (1 or 0)							0
+181	CDiffusion::m_Type=		Doping, rear - Type (n = 0, p = 1)						0
+182	CDiffusion::m_Profile=		Doping, rear - Profile (0 = uniform, 1 = exp, 2 = gauss, 3 = erfc)		0
+183	CDiffusion::m_Npeak=		Doping, rear - Peak concentration						1
+184	CDiffusion::m_Depth=		Doping, rear - Depth factor							1
+185	CDiffusion::m_Xpeak=		Doping, rear - Peak position							1
+186	CRegion::m_RearDiff2:	
+187	In CDiffusion: ver_num=	
+188	CDiffusion::m_Enable=	
+189	CDiffusion::m_Type=	
+190	CDiffusion::m_Profile=	
+191	CDiffusion::m_Npeak=	
+192	CDiffusion::m_Depth=	
+193	CDiffusion::m_Xpeak=	
+194	CRegion::m_Thickness=		General - Wafer thickness (cm)							1
+195	CRegion::m_FrontFilename=	Doping, front - External file, filename						0
+196	CRegion::m_FrontExternal=	Doping, front - External file,  enabled? (1 or 0)				0
+197	CRegion::m_RearFilename=	Doping, rear - External file, filename						0
+198	CRegion::m_RearExternal=	Doping, rear - External file,  enabled? (1 or 0)				0
+199	CRegion::m_BkgndDop=		Doping, bulk - Concentration (cm^-3)						1
+200	CRegion::m_BkgndType=		Doping, bulk - Type (0=n, 1 = p)						0
+201	CRegion::m_TauN=		Recombination, bulk - SRH lifetime parameter for electrons (s)			1
+202	CRegion::m_TauP=		Recombination, bulk - SRH lifetime parameter for holes (s)			1
+203	CRegion::m_BulkEt=		Recombination, bulk - SRH lifetime energy level (E-Ei) (eV)			1
+204	CRegion::m_FrontSn=		Recombination, front - SRV parameter for electrons (cm/s)			1
+205	CRegion::m_FrontSp=		Recombination, front - SRV parameter for holes     (cm/s)			1
+206	CRegion::m_FrontEt=		Recombination, front - SRV trap level (E-Ei)					1
+207	CRegion::m_FrontJo=		Recombination, front - Emitter saturation current (A)				1
+208	CRegion::m_RearSn=		Recombination, rear - SRV parameter for electrons (cm/s)			1
+209	CRegion::m_RearSp=		Recombination, rear - SRV parameter for holes     (cm/s)			1
+210	CRegion::m_RearEt=		Recombination, rear - SRV trap level (E-Ei) (eV)				1
+211	CRegion::m_RearJo=		Recombination, rear - Emitter saturation current (A)				1
+212	CDevice::m_Area=		General - Cell area (cm^2)							1
+213	CDevice::m_Aunit=
+214	CDevice::m_FrontTexture=	Texture, front -  Enable? (1 or 0)						0
+215	CDevice::m_FrontAngle=		Texture, front - Texture angle							1
+216	CDevice::m_FrontDepth=		Texture, front - Texture depth (cm)						1
+217	CDevice::m_RearTexture=		Texture, rear -  Enable? (1 or 0)						0
+218	CDevice::m_RearAngle=		Texture, rear - Texture angle							1
+219	CDevice::m_RearDepth=		Texture, rear - Texture depth (cm)						1
+220	CDevice::m_FrontSurface=	Surface band bending, front -  enabled? (0 = No, 1 = Charge, 2 = Barrier)	0
+221	CDevice::m_FrontBarrier=	Surface band bending, front - Barrier (eV)					1
+222	CDevice::m_FrontCharge=		Surface band bending, front - Charge (e/cm^-2)					1
+223	CDevice::m_RearSurface=		Surface band bending, rear -  enabled? (0 = No, 1 = Charge, 2 = Barrier)	0
+224	CDevice::m_RearBarrier=		Surface band bending, rear - Barrier (eV)					1
+225	CDevice::m_RearCharge=		Surface band bending, rear - Charge (e/cm^-2)					1
+226	CDevice::m_EnableEmitter=	
+227	CDevice::m_EnableBase=		
+228	CDevice::m_EnableCollector=	
+229	CDevice::m_EnableInternal=	
+230	CDevice::m_EmitterR=		Circuit - Emitter Rs (ohm)							1
+231	CDevice::m_BaseR=		Circuit - Base Rs    (ohm)							1
+232	CDevice::m_CollectorR=
+233	CDevice::m_EmitterX=	
+234	CDevice::m_BaseX=	
+235	CDevice::m_CollectorX=	
+236	CProblem::pE:	
+237	CExcite::m_LightPri:	
+238	CLight::m_On=	
+239	CLight::m_IntensityExternal=	
+240	CLight::m_Back=	
+241	CLight::m_SpectrumExternal=	
+242	CLight::m_SpectrumBlack=	
+243	CLight::m_SpectrumMono=	
+244	CLight::m_BlackNum=	 	
+245	CLight::m_LambdaSS=	
+246	CLight::m_LambdaTR1=	
+247	CLight::m_LambdaTR2=	
+248	CLight::m_IntensitySS=		Excitation - Intensity steady state      (W/cm^2)				1
+249	CLight::m_IntensityTR1=		Excitation - Intensity transient from    (W/cm^2)				1
+250	CLight::m_IntensityTR2=		Excitation - Intensity transient to      (W/cm^2)				1
+251	CLight::m_SpectrumFile=		Excitation - Spectrum file							0
+252	CLight::m_IntensityFile=	
+253	CLight::m_BlackTemperature=	
+254	CLight::m_BlackMin=	
+255	CLight::m_BlackMax=	
+256	CExcite::m_LightSec:	
+257	CLight::m_On=	
+258	CLight::m_IntensityExternal=
+259	CLight::m_Back=	
+260	CLight::m_SpectrumExternal=	
+261	CLight::m_SpectrumBlack=	
+262	CLight::m_SpectrumMono=	
+263	CLight::m_BlackNum=	
+264	CLight::m_LambdaSS=	
+265	CLight::m_LambdaTR1=	
+266	CLight::m_LambdaTR2=	
+267	CLight::m_IntensitySS=		Excitation rear - Intensity steady state      (W/cm^2)				1
+268	CLight::m_IntensityTR1=	
+269	CLight::m_IntensityTR2=	
+270	CLight::m_SpectrumFile=	
+271	CLight::m_IntensityFile=	
+272	CLight::m_BlackTemperature=	
+273	CLight::m_BlackMin=	
+274	CLight::m_BlackMax=	
+275	CExcite::m_Base:	
+276	CCircuit::m_File=	
+277	CCircuit::m_External=	
+278	CCircuit::m_ConnectSS=	
+279	CCircuit::m_OhmsSS=	
+280	CCircuit::m_RSS=	
+281	CCircuit::m_VSS=		Circuit - Voltage steady state (V)						1
+282	CCircuit::m_ConnectTR=	
+283	CCircuit::m_OhmsTR=	
+284	CCircuit::m_RTR=	
+285	CCircuit::m_VTR1=		Circuit - Voltage transient from (V)						1
+286	CCircuit::m_VTR2=		Circuit - Voltage transient to   (V)						1
+287	CExcite::m_Coll:	
+288	CCircuit::m_File=	
+289	CCircuit::m_External=	
+290	CCircuit::m_ConnectSS=	
+291	CCircuit::m_OhmsSS=	
+292	CCircuit::m_RSS=	
+293	CCircuit::m_VSS=	
+294	CCircuit::m_ConnectTR=	
+295	CCircuit::m_OhmsTR=	
+296	CCircuit::m_RTR=	
+297	CCircuit::m_VTR1=	
+298	CCircuit::m_VTR2=	
+299	CExcite::m_FileVersion=	
+300	CExcite::m_Filename=	
+301	CExcite::m_bModified=	
+302	CExcite::m_Mode=		Excitation - Mode (0 = eq, 1 = ss, 2 = trans) 					0
+303	CExcite::m_TranNum=		Excitation - Number of steps							0
+304	CExcite::m_TranStep=		Excitation - Step time								0
+305	CExcite::m_FirstStep=		Excitation - Time for first step						0
+306	CExcite::m_LightExternal=	
+307	CExcite::m_LightExternalFile=	
+308	CExcite::m_Temp=		General - Cell temperature (K)							1
+309	CExcite::m_Tunit=	
+310	CExcite::m_InteractiveGraph:	
+311	In CGraph: ver_num=	
+312	CGraph::m_xquantity:	
+313	In CData: GraphableQuantity g=	
+314	In CGraph: numy=	
+315	CGraph::m_yquantity[0]:	
+316	In CData: GraphableQuantity g=	
+317	CGraph::m_yquantity[1]:	
+318	In CData: GraphableQuantity g=	
+319	CGraph::m_yquantity[2]:	
+320	In CData: GraphableQuantity g=	
+321	CGraph::m_yquantity[3]:	
+322	In CData: GraphableQuantity g=	
+323	CGraph::title=	
+324	CGraph::xLabel=	
+325	CGraph::yLabel=	
+326	CGraph::xScale=	
+327	CGraph::yScale=	
+328	CExcite::m_nostategraphs[0]:	
+329	In CGraph: ver_num=	
+330	CGraph::m_xquantity:	
+331	In CData: GraphableQuantity g=	
+332	In CGraph: numy=	
+333	CGraph::m_yquantity[0]:	
+334	In CData: GraphableQuantity g=	
+335	CGraph::m_yquantity[1]:	
+336	In CData: GraphableQuantity g=	
+337	CGraph::m_yquantity[2]:	
+338	In CData: GraphableQuantity g=	
+339	CGraph::m_yquantity[3]:	
+340	In CData: GraphableQuantity g=	
+341	CGraph::title=	
+342	CGraph::xLabel=	
+343	CGraph::yLabel=	
+344	CGraph::xScale=	
+345	CGraph::yScale=	
+346	CExcite::m_nostategraphs[1]:	
+347	In CGraph: ver_num=	
+348	CGraph::m_xquantity:	
+349	In CData: GraphableQuantity g=	
+350	In CGraph: numy=	
+351	CGraph::m_yquantity[0]:	
+352	In CData: GraphableQuantity g=	
+353	CGraph::m_yquantity[1]:	
+354	In CData: GraphableQuantity g=	
+355	CGraph::m_yquantity[2]:	
+356	In CData: GraphableQuantity g=	
+357	CGraph::m_yquantity[3]:	
+358	In CData: GraphableQuantity g=	
+359	CGraph::title=	
+360	CGraph::xLabel=	
+361	CGraph::yLabel=	
+362	CGraph::xScale=	
+363	CGraph::yScale=	
+364	CExcite::m_nostategraphs[2]:	
+365	In CGraph: ver_num=	
+366	CGraph::m_xquantity:	
+367	In CData: GraphableQuantity g=	
+368	In CGraph: numy=	
+369	CGraph::m_yquantity[0]:	
+370	In CData: GraphableQuantity g=	
+371	CGraph::m_yquantity[1]:	
+372	In CData: GraphableQuantity g=	
+373	CGraph::m_yquantity[2]:	
+374	In CData: GraphableQuantity g=	
+375	CGraph::m_yquantity[3]:	
+376	In CData: GraphableQuantity g=	
+377	CGraph::title=	
+378	CGraph::xLabel=	
+379	CGraph::yLabel=	
+380	CGraph::xScale=	
+381	CGraph::yScale=	
+382	CExcite::m_nostategraphs[3]:	
+383	In CGraph: ver_num=	
+384	CGraph::m_xquantity:	
+385	In CData: GraphableQuantity g=	
+386	In CGraph: numy=	
+387	CGraph::m_yquantity[0]:	
+388	In CData: GraphableQuantity g=	
+389	CGraph::m_yquantity[1]:	
+390	In CData: GraphableQuantity g=	
+391	CGraph::m_yquantity[2]:	
+392	In CData: GraphableQuantity g=	
+393	CGraph::m_yquantity[3]:	
+394	In CData: GraphableQuantity g=	
+395	CGraph::title=	
+396	CGraph::xLabel=	
+397	CGraph::yLabel=	
+398	CGraph::xScale=	
+399	CGraph::yScale=	
+400	CExcite::m_eqstategraphs[0]:	
+401	In CGraph: ver_num=	
+402	CGraph::m_xquantity:	
+403	In CData: GraphableQuantity g=	
+404	In CGraph: numy=	
+405	CGraph::m_yquantity[0]:	
+406	In CData: GraphableQuantity g=	
+407	CGraph::m_yquantity[1]:	
+408	In CData: GraphableQuantity g=	
+409	CGraph::m_yquantity[2]:	
+410	In CData: GraphableQuantity g=	
+411	CGraph::m_yquantity[3]:	
+412	In CData: GraphableQuantity g=	
+413	CGraph::title=	
+414	CGraph::xLabel=	
+415	CGraph::yLabel=	
+416	CGraph::xScale=	
+417	CGraph::yScale=	
+418	CExcite::m_eqstategraphs[1]:	
+419	In CGraph: ver_num=	
+420	CGraph::m_xquantity:	
+421	In CData: GraphableQuantity g=	
+422	In CGraph: numy=	
+423	CGraph::m_yquantity[0]:	
+424	In CData: GraphableQuantity g=	
+425	CGraph::m_yquantity[1]:	
+426	In CData: GraphableQuantity g=	
+427	CGraph::m_yquantity[2]:	
+428	In CData: GraphableQuantity g=	
+429	CGraph::m_yquantity[3]:	
+430	In CData: GraphableQuantity g=	
+431	CGraph::title=	
+432	CGraph::xLabel=	
+433	CGraph::yLabel=	
+434	CGraph::xScale=	
+435	CGraph::yScale=	
+436	CExcite::m_eqstategraphs[2]:	
+437	In CGraph: ver_num=	
+438	CGraph::m_xquantity:	
+439	In CData: GraphableQuantity g=	
+440	In CGraph: numy=	
+441	CGraph::m_yquantity[0]:	
+442	In CData: GraphableQuantity g=	
+443	CGraph::m_yquantity[1]:	
+444	In CData: GraphableQuantity g=	
+445	CGraph::m_yquantity[2]:	
+446	In CData: GraphableQuantity g=	
+447	CGraph::m_yquantity[3]:	
+448	In CData: GraphableQuantity g=	
+449	CGraph::title=	
+450	CGraph::xLabel=	
+451	CGraph::yLabel=	
+452	CGraph::xScale=	
+453	CGraph::yScale=	
+454	CExcite::m_eqstategraphs[3]:	
+455	In CGraph: ver_num=	
+456	CGraph::m_xquantity:	
+457	In CData: GraphableQuantity g=	
+458	In CGraph: numy=	
+459	CGraph::m_yquantity[0]:	
+460	In CData: GraphableQuantity g=	
+461	CGraph::m_yquantity[1]:	
+462	In CData: GraphableQuantity g=	
+463	CGraph::m_yquantity[2]:	
+464	In CData: GraphableQuantity g=	
+465	CGraph::m_yquantity[3]:	
+466	In CData: GraphableQuantity g=	
+467	CGraph::title=	
+468	CGraph::xLabel=	
+469	CGraph::yLabel=	
+470	CGraph::xScale=	
+471	CGraph::yScale=	
+472	CExcite::m_ssstategraphs[0]:	
+473	In CGraph: ver_num=	
+474	CGraph::m_xquantity:	
+475	In CData: GraphableQuantity g=	
+476	In CGraph: numy=	
+477	CGraph::m_yquantity[0]:	
+478	In CData: GraphableQuantity g=	
+479	CGraph::m_yquantity[1]:	
+480	In CData: GraphableQuantity g=	
+481	CGraph::m_yquantity[2]:	
+482	In CData: GraphableQuantity g=	
+483	CGraph::m_yquantity[3]:	
+484	In CData: GraphableQuantity g=	
+485	CGraph::title=	
+486	CGraph::xLabel=	
+487	CGraph::yLabel=	
+488	CGraph::xScale=	
+489	CGraph::yScale=	
+490	CExcite::m_ssstategraphs[1]:	
+491	In CGraph: ver_num=	
+492	CGraph::m_xquantity:	
+493	In CData: GraphableQuantity g=	
+494	In CGraph: numy=	
+495	CGraph::m_yquantity[0]:	
+496	In CData: GraphableQuantity g=	
+497	CGraph::m_yquantity[1]:	
+498	In CData: GraphableQuantity g=	
+499	CGraph::m_yquantity[2]:	
+500	In CData: GraphableQuantity g=	
+501	CGraph::m_yquantity[3]:	
+502	In CData: GraphableQuantity g=	
+503	CGraph::title=	
+504	CGraph::xLabel=	
+505	CGraph::yLabel=	
+506	CGraph::xScale=	
+507	CGraph::yScale=	
+508	CExcite::m_ssstategraphs[2]:	
+509	In CGraph: ver_num=	
+510	CGraph::m_xquantity:	
+511	In CData: GraphableQuantity g=	
+512	In CGraph: numy=	
+513	CGraph::m_yquantity[0]:	
+514	In CData: GraphableQuantity g=	
+515	CGraph::m_yquantity[1]:	
+516	In CData: GraphableQuantity g=	
+517	CGraph::m_yquantity[2]:	
+518	In CData: GraphableQuantity g=	
+519	CGraph::m_yquantity[3]:	
+520	In CData: GraphableQuantity g=	
+521	CGraph::title=	
+522	CGraph::xLabel=	
+523	CGraph::yLabel=	
+524	CGraph::xScale=	
+525	CGraph::yScale=	
+526	CExcite::m_ssstategraphs[3]:	
+527	In CGraph: ver_num=	
+528	CGraph::m_xquantity:	
+529	In CData: GraphableQuantity g=	
+530	In CGraph: numy=	
+531	CGraph::m_yquantity[0]:	
+532	In CData: GraphableQuantity g=	
+533	CGraph::m_yquantity[1]:	
+534	In CData: GraphableQuantity g=	
+535	CGraph::m_yquantity[2]:	
+536	In CData: GraphableQuantity g=	
+537	CGraph::m_yquantity[3]:	
+538	In CData: GraphableQuantity g=	
+539	CGraph::title=	
+540	CGraph::xLabel=	
+541	CGraph::yLabel=	
+542	CGraph::xScale=	
+543	CGraph::yScale=	
+544	CProblem::pS:	
+545	In CSolve: ver_num=	
+546	CSolve::m_SizeFactor=	
+547	CSolve::m_ErrorLimit=	
+548	CSolve::m_Clamp=	
+549	CSolve::m_nMaxTime=	
+550	CSolve::m_bClampPhi=	
+551	CSolve::m_bClampPsi=	
+552	CSolve::m_bRenodeEQ=	
+553	CSolve::m_bRenodeSS=	
+554	CSolve::m_bRenodeTR=	
+555	CSolve::m_bGraphsAfterEveryIteration=	
+556	CSolve::m_bPhiSat=	
+557	CSolve::m_bStoreNodes=	
+558	CProblem::pBatch:	
+559	CBatch::m_FileVersion=	
+560	CBatch::m_Enable=	
+561	CBatch::m_Filename=

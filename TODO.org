@@ -1,0 +1,3 @@
+[ ] check energy balance
+[ ] losses due to glass protection
+[ ] sun tracking problems

@@ -1,0 +1,561 @@
+CProblem::m_FileVersion=40
+CProblem::m_Description=
+CProblem::m_Status:
+CStatus::state=0
+CStatus::time_step=0
+CStatus::time=0
+CProblem::pD:
+CDevice::m_FrontRfl:
+CReflectance::m_bCoated=0
+CReflectance::m_bExternal=0
+CReflectance::m_Filename=
+CReflectance::m_Fixed=0
+CReflectance::m_Broadband=0
+CReflectance::m_Internal1=0
+CReflectance::m_Internal2=0
+CReflectance::m_Rough=0
+CReflectance::num_layers=3
+CReflectance::m_Thick[0]=0
+CReflectance::m_Index[0]=1
+CReflectance::m_Thick[1]=0
+CReflectance::m_Index[1]=1
+CReflectance::m_Thick[2]=0
+CReflectance::m_Index[2]=1
+CDevice::m_RearRfl:
+CReflectance::m_bCoated=0
+CReflectance::m_bExternal=0
+CReflectance::m_Filename=
+CReflectance::m_Fixed=0
+CReflectance::m_Broadband=0
+CReflectance::m_Internal1=0
+CReflectance::m_Internal2=0
+CReflectance::m_Rough=0
+CReflectance::num_layers=3
+CReflectance::m_Thick[0]=0
+CReflectance::m_Index[0]=1
+CReflectance::m_Thick[1]=0
+CReflectance::m_Index[1]=1
+CReflectance::m_Thick[2]=0
+CReflectance::m_Index[2]=1
+CDevice::num_lumped=4
+CDevice::m_Lumped[0]:
+CLumped::m_Enable=0
+CLumped::m_Xa=0
+CLumped::m_Xc=0
+CLumped::m_Type=0
+CLumped::m_n=1
+CLumped::m_Value=0
+CDevice::m_Lumped[1]:
+CLumped::m_Enable=0
+CLumped::m_Xa=0
+CLumped::m_Xc=0
+CLumped::m_Type=0
+CLumped::m_n=1
+CLumped::m_Value=0
+CDevice::m_Lumped[2]:
+CLumped::m_Enable=0
+CLumped::m_Xa=0
+CLumped::m_Xc=0
+CLumped::m_Type=0
+CLumped::m_n=1
+CLumped::m_Value=0
+CDevice::m_Lumped[3]:
+CLumped::m_Enable=0
+CLumped::m_Xa=0
+CLumped::m_Xc=0
+CLumped::m_Type=0
+CLumped::m_n=1
+CLumped::m_Value=0
+CDevice::m_Filename=
+CDevice::m_bModified=-9216
+In CDevice: version=1
+CDevice::m_CurrentRegion=0
+CDevice::m_NumRegions=1
+CDevice::pList element 0:
+CRegion::m_Mat:
+CMaterial::m_Elec:
+CMobility::Fixed=1200
+CMobility::Max=1417
+CMobility::MajMin=60
+CMobility::MajNref=9.64e+016
+CMobility::MajAlpha=0.664
+CMobility::MinMin=160
+CMobility::MinNref=5.6e+016
+CMobility::MinAlpha=0.647
+CMobility::B1=-0.57
+CMobility::B2=-2.33
+CMobility::B3=2.4
+CMobility::B4=-0.146
+CMobility::Vmax=1e+007
+CMaterial::m_Hole:
+CMobility::Fixed=400
+CMobility::Max=470
+CMobility::MajMin=37.4
+CMobility::MajNref=2.82e+017
+CMobility::MajAlpha=0.642
+CMobility::MinMin=155
+CMobility::MinNref=1e+017
+CMobility::MinAlpha=0.9
+CMobility::B1=-0.57
+CMobility::B2=-2.23
+CMobility::B3=2.4
+CMobility::B4=-0.146
+CMobility::Vmax=1e+007
+CMaterial::m_Filename=
+CMaterial::m_bModified=-9216
+CMaterial::m_FileVersion=3
+CMaterial::m_FixedMobility=0
+CMaterial::m_Permittivity=11.9
+CMaterial::m_BandGap=1.124
+CMaterial::m_Affinity=4.05
+CMaterial::m_NcNv=1.06
+CMaterial::m_ni200=47000
+CMaterial::m_ni300=1e+010
+CMaterial::m_ni400=5.6e+012
+CMaterial::m_BGNnNref=1.4e+017
+CMaterial::m_BGNnSlope=0.014
+CMaterial::m_BGNpNref=1.4e+017
+CMaterial::m_BGNpSlope=0.014
+CMaterial::m_Cn=2.2e-031
+CMaterial::m_Cp=9.9e-032
+CMaterial::m_Cnp=1.66e-030
+CMaterial::m_BB=9.5e-015
+CMaterial::m_BulkNrefN=1e+015
+CMaterial::m_BulkNalphaN=0
+CMaterial::m_BulkNrefP=1e+015
+CMaterial::m_BulkNalphaP=0
+CMaterial::m_BulkTalpha=0
+CMaterial::m_BulkEref=370000
+CMaterial::m_BulkEgamma=3.46
+CMaterial::m_SurfNrefN=1e+018
+CMaterial::m_SurfNalphaN=0
+CMaterial::m_SurfNrefP=1e+018
+CMaterial::m_SurfNalphaP=0
+CMaterial::m_SurfTalpha=0
+CMaterial::m_IndexFilename=
+CMaterial::m_IndexExternal=0
+CMaterial::m_FixedIndex=3.58
+CMaterial::m_AbsFilename=
+CMaterial::m_AbsExternal=0
+CMaterial::m_AbsEd1=3.177
+CMaterial::m_AbsEd2=4
+CMaterial::m_AbsEi1=1.102
+CMaterial::m_AbsEi2=2.489
+CMaterial::m_AbsEp1=0.01826
+CMaterial::m_AbsEp2=0.06494
+CMaterial::m_AbsAd1=1.29e+006
+CMaterial::m_AbsAd2=37460
+CMaterial::m_AbsA11=1468
+CMaterial::m_AbsA12=1561
+CMaterial::m_AbsA21=28900
+CMaterial::m_AbsA22=87970
+CMaterial::m_AbsTcoeff=0.000473
+CMaterial::m_AbsToffset=636
+CMaterial::m_FreeCarrEnable=1
+CMaterial::m_FreeCarrCoeffN=2.6e-027
+CMaterial::m_FreeCarrPowerN=3
+CMaterial::m_FreeCarrCoeffP=2.7e-024
+CMaterial::m_FreeCarrPowerP=2
+CMaterial::m_HurkxEnable=1
+CMaterial::m_HurkxPrefactor=6.14
+CMaterial::m_HurkxFgamma=368800
+CRegion::m_FrontDiff1:
+In CDiffusion: ver_num=1
+CDiffusion::m_Enable=0
+CDiffusion::m_Type=0
+CDiffusion::m_Profile=3
+CDiffusion::m_Npeak=1e+020
+CDiffusion::m_Depth=0.0001
+CDiffusion::m_Xpeak=0
+CRegion::m_FrontDiff2:
+In CDiffusion: ver_num=1
+CDiffusion::m_Enable=0
+CDiffusion::m_Type=0
+CDiffusion::m_Profile=3
+CDiffusion::m_Npeak=1e+020
+CDiffusion::m_Depth=0.0001
+CDiffusion::m_Xpeak=0
+CRegion::m_RearDiff1:
+In CDiffusion: ver_num=1
+CDiffusion::m_Enable=0
+CDiffusion::m_Type=0
+CDiffusion::m_Profile=3
+CDiffusion::m_Npeak=1e+020
+CDiffusion::m_Depth=0.0001
+CDiffusion::m_Xpeak=0
+CRegion::m_RearDiff2:
+In CDiffusion: ver_num=1
+CDiffusion::m_Enable=0
+CDiffusion::m_Type=0
+CDiffusion::m_Profile=3
+CDiffusion::m_Npeak=1e+020
+CDiffusion::m_Depth=0.0001
+CDiffusion::m_Xpeak=0
+CRegion::m_Thickness=0.001
+CRegion::m_FrontFilename=
+CRegion::m_FrontExternal=0
+CRegion::m_RearFilename=
+CRegion::m_RearExternal=0
+CRegion::m_BkgndDop=1e+016
+CRegion::m_BkgndType=1
+CRegion::m_TauN=0.001
+CRegion::m_TauP=0.001
+CRegion::m_BulkEt=0
+CRegion::m_FrontSn=0
+CRegion::m_FrontSp=0
+CRegion::m_FrontEt=0
+CRegion::m_FrontJo=0
+CRegion::m_RearSn=0
+CRegion::m_RearSp=0
+CRegion::m_RearEt=0
+CRegion::m_RearJo=0
+CDevice::m_Area=1
+CDevice::m_Aunit=0
+CDevice::m_FrontTexture=0
+CDevice::m_FrontAngle=54.74
+CDevice::m_FrontDepth=0.0003
+CDevice::m_RearTexture=0
+CDevice::m_RearAngle=54.74
+CDevice::m_RearDepth=0.0003
+CDevice::m_FrontSurface=0
+CDevice::m_FrontBarrier=0
+CDevice::m_FrontCharge=0
+CDevice::m_RearSurface=0
+CDevice::m_RearBarrier=0
+CDevice::m_RearCharge=0
+CDevice::m_EnableEmitter=1
+CDevice::m_EnableBase=1
+CDevice::m_EnableCollector=0
+CDevice::m_EnableInternal=0
+CDevice::m_EmitterR=1e-006
+CDevice::m_BaseR=1e-006
+CDevice::m_CollectorR=1e-006
+CDevice::m_EmitterX=0
+CDevice::m_BaseX=1
+CDevice::m_CollectorX=1
+CProblem::pE:
+CExcite::m_LightPri:
+CLight::m_On=0
+CLight::m_IntensityExternal=0
+CLight::m_Back=0
+CLight::m_SpectrumExternal=0
+CLight::m_SpectrumBlack=0
+CLight::m_SpectrumMono=1
+CLight::m_BlackNum=50
+CLight::m_LambdaSS=300
+CLight::m_LambdaTR1=300
+CLight::m_LambdaTR2=1200
+CLight::m_IntensitySS=0.1
+CLight::m_IntensityTR1=0.1
+CLight::m_IntensityTR2=0.1
+CLight::m_SpectrumFile=
+CLight::m_IntensityFile=
+CLight::m_BlackTemperature=2000
+CLight::m_BlackMin=0
+CLight::m_BlackMax=10000
+CExcite::m_LightSec:
+CLight::m_On=0
+CLight::m_IntensityExternal=0
+CLight::m_Back=0
+CLight::m_SpectrumExternal=0
+CLight::m_SpectrumBlack=0
+CLight::m_SpectrumMono=1
+CLight::m_BlackNum=50
+CLight::m_LambdaSS=300
+CLight::m_LambdaTR1=300
+CLight::m_LambdaTR2=1200
+CLight::m_IntensitySS=0.1
+CLight::m_IntensityTR1=0.1
+CLight::m_IntensityTR2=0.1
+CLight::m_SpectrumFile=
+CLight::m_IntensityFile=
+CLight::m_BlackTemperature=2000
+CLight::m_BlackMin=0
+CLight::m_BlackMax=10000
+CExcite::m_Base:
+CCircuit::m_File=
+CCircuit::m_External=0
+CCircuit::m_ConnectSS=1
+CCircuit::m_OhmsSS=1
+CCircuit::m_RSS=0
+CCircuit::m_VSS=0
+CCircuit::m_ConnectTR=1
+CCircuit::m_OhmsTR=1
+CCircuit::m_RTR=0
+CCircuit::m_VTR1=0
+CCircuit::m_VTR2=0
+CExcite::m_Coll:
+CCircuit::m_File=
+CCircuit::m_External=0
+CCircuit::m_ConnectSS=1
+CCircuit::m_OhmsSS=1
+CCircuit::m_RSS=0
+CCircuit::m_VSS=0
+CCircuit::m_ConnectTR=1
+CCircuit::m_OhmsTR=1
+CCircuit::m_RTR=0
+CCircuit::m_VTR1=0
+CCircuit::m_VTR2=0
+CExcite::m_FileVersion=2
+CExcite::m_Filename=
+CExcite::m_bModified=0
+CExcite::m_Mode=1
+CExcite::m_TranNum=1
+CExcite::m_TranStep=1
+CExcite::m_FirstStep=1e-009
+CExcite::m_LightExternal=0
+CExcite::m_LightExternalFile=
+CExcite::m_Temp=300
+CExcite::m_Tunit=0
+CExcite::m_InteractiveGraph:
+In CGraph: ver_num=1
+CGraph::m_xquantity:
+In CData: GraphableQuantity g=2
+In CGraph: numy=4
+CGraph::m_yquantity[0]:
+In CData: GraphableQuantity g=6
+CGraph::m_yquantity[1]:
+In CData: GraphableQuantity g=7
+CGraph::m_yquantity[2]:
+In CData: GraphableQuantity g=0
+CGraph::m_yquantity[3]:
+In CData: GraphableQuantity g=0
+CGraph::title=Carrier Densities
+CGraph::xLabel=
+CGraph::yLabel=
+CGraph::xScale=0
+CGraph::yScale=1
+CExcite::m_nostategraphs[0]:
+In CGraph: ver_num=1
+CGraph::m_xquantity:
+In CData: GraphableQuantity g=2
+In CGraph: numy=4
+CGraph::m_yquantity[0]:
+In CData: GraphableQuantity g=4
+CGraph::m_yquantity[1]:
+In CData: GraphableQuantity g=5
+CGraph::m_yquantity[2]:
+In CData: GraphableQuantity g=0
+CGraph::m_yquantity[3]:
+In CData: GraphableQuantity g=0
+CGraph::title=Doping Densities
+CGraph::xLabel=
+CGraph::yLabel=
+CGraph::xScale=0
+CGraph::yScale=1
+CExcite::m_nostategraphs[1]:
+In CGraph: ver_num=1
+CGraph::m_xquantity:
+In CData: GraphableQuantity g=2
+In CGraph: numy=4
+CGraph::m_yquantity[0]:
+In CData: GraphableQuantity g=22
+CGraph::m_yquantity[1]:
+In CData: GraphableQuantity g=23
+CGraph::m_yquantity[2]:
+In CData: GraphableQuantity g=0
+CGraph::m_yquantity[3]:
+In CData: GraphableQuantity g=0
+CGraph::title=Carrier Mobilities
+CGraph::xLabel=
+CGraph::yLabel=
+CGraph::xScale=0
+CGraph::yScale=0
+CExcite::m_nostategraphs[2]:
+In CGraph: ver_num=1
+CGraph::m_xquantity:
+In CData: GraphableQuantity g=2
+In CGraph: numy=4
+CGraph::m_yquantity[0]:
+In CData: GraphableQuantity g=6
+CGraph::m_yquantity[1]:
+In CData: GraphableQuantity g=7
+CGraph::m_yquantity[2]:
+In CData: GraphableQuantity g=0
+CGraph::m_yquantity[3]:
+In CData: GraphableQuantity g=0
+CGraph::title=Carrier Densities
+CGraph::xLabel=
+CGraph::yLabel=
+CGraph::xScale=0
+CGraph::yScale=1
+CExcite::m_nostategraphs[3]:
+In CGraph: ver_num=1
+CGraph::m_xquantity:
+In CData: GraphableQuantity g=2
+In CGraph: numy=4
+CGraph::m_yquantity[0]:
+In CData: GraphableQuantity g=38
+CGraph::m_yquantity[1]:
+In CData: GraphableQuantity g=0
+CGraph::m_yquantity[2]:
+In CData: GraphableQuantity g=0
+CGraph::m_yquantity[3]:
+In CData: GraphableQuantity g=0
+CGraph::title=Diffusion Length
+CGraph::xLabel=
+CGraph::yLabel=
+CGraph::xScale=0
+CGraph::yScale=0
+CExcite::m_eqstategraphs[0]:
+In CGraph: ver_num=1
+CGraph::m_xquantity:
+In CData: GraphableQuantity g=2
+In CGraph: numy=4
+CGraph::m_yquantity[0]:
+In CData: GraphableQuantity g=30
+CGraph::m_yquantity[1]:
+In CData: GraphableQuantity g=31
+CGraph::m_yquantity[2]:
+In CData: GraphableQuantity g=28
+CGraph::m_yquantity[3]:
+In CData: GraphableQuantity g=29
+CGraph::title=Energy Bands
+CGraph::xLabel=
+CGraph::yLabel=
+CGraph::xScale=0
+CGraph::yScale=0
+CExcite::m_eqstategraphs[1]:
+In CGraph: ver_num=1
+CGraph::m_xquantity:
+In CData: GraphableQuantity g=2
+In CGraph: numy=4
+CGraph::m_yquantity[0]:
+In CData: GraphableQuantity g=8
+CGraph::m_yquantity[1]:
+In CData: GraphableQuantity g=0
+CGraph::m_yquantity[2]:
+In CData: GraphableQuantity g=0
+CGraph::m_yquantity[3]:
+In CData: GraphableQuantity g=0
+CGraph::title=
+CGraph::xLabel=
+CGraph::yLabel=
+CGraph::xScale=0
+CGraph::yScale=0
+CExcite::m_eqstategraphs[2]:
+In CGraph: ver_num=1
+CGraph::m_xquantity:
+In CData: GraphableQuantity g=2
+In CGraph: numy=4
+CGraph::m_yquantity[0]:
+In CData: GraphableQuantity g=6
+CGraph::m_yquantity[1]:
+In CData: GraphableQuantity g=7
+CGraph::m_yquantity[2]:
+In CData: GraphableQuantity g=0
+CGraph::m_yquantity[3]:
+In CData: GraphableQuantity g=0
+CGraph::title=Carrier Densities
+CGraph::xLabel=
+CGraph::yLabel=
+CGraph::xScale=0
+CGraph::yScale=1
+CExcite::m_eqstategraphs[3]:
+In CGraph: ver_num=1
+CGraph::m_xquantity:
+In CData: GraphableQuantity g=2
+In CGraph: numy=4
+CGraph::m_yquantity[0]:
+In CData: GraphableQuantity g=9
+CGraph::m_yquantity[1]:
+In CData: GraphableQuantity g=0
+CGraph::m_yquantity[2]:
+In CData: GraphableQuantity g=0
+CGraph::m_yquantity[3]:
+In CData: GraphableQuantity g=0
+CGraph::title=
+CGraph::xLabel=
+CGraph::yLabel=
+CGraph::xScale=0
+CGraph::yScale=0
+CExcite::m_ssstategraphs[0]:
+In CGraph: ver_num=1
+CGraph::m_xquantity:
+In CData: GraphableQuantity g=2
+In CGraph: numy=4
+CGraph::m_yquantity[0]:
+In CData: GraphableQuantity g=30
+CGraph::m_yquantity[1]:
+In CData: GraphableQuantity g=31
+CGraph::m_yquantity[2]:
+In CData: GraphableQuantity g=28
+CGraph::m_yquantity[3]:
+In CData: GraphableQuantity g=29
+CGraph::title=Energy Bands
+CGraph::xLabel=
+CGraph::yLabel=
+CGraph::xScale=0
+CGraph::yScale=0
+CExcite::m_ssstategraphs[1]:
+In CGraph: ver_num=1
+CGraph::m_xquantity:
+In CData: GraphableQuantity g=2
+In CGraph: numy=4
+CGraph::m_yquantity[0]:
+In CData: GraphableQuantity g=13
+CGraph::m_yquantity[1]:
+In CData: GraphableQuantity g=18
+CGraph::m_yquantity[2]:
+In CData: GraphableQuantity g=0
+CGraph::m_yquantity[3]:
+In CData: GraphableQuantity g=0
+CGraph::title=Generation & Recombination
+CGraph::xLabel=
+CGraph::yLabel=
+CGraph::xScale=0
+CGraph::yScale=0
+CExcite::m_ssstategraphs[2]:
+In CGraph: ver_num=1
+CGraph::m_xquantity:
+In CData: GraphableQuantity g=2
+In CGraph: numy=4
+CGraph::m_yquantity[0]:
+In CData: GraphableQuantity g=6
+CGraph::m_yquantity[1]:
+In CData: GraphableQuantity g=7
+CGraph::m_yquantity[2]:
+In CData: GraphableQuantity g=0
+CGraph::m_yquantity[3]:
+In CData: GraphableQuantity g=0
+CGraph::title=Carrier Densities
+CGraph::xLabel=
+CGraph::yLabel=
+CGraph::xScale=0
+CGraph::yScale=1
+CExcite::m_ssstategraphs[3]:
+In CGraph: ver_num=1
+CGraph::m_xquantity:
+In CData: GraphableQuantity g=2
+In CGraph: numy=4
+CGraph::m_yquantity[0]:
+In CData: GraphableQuantity g=10
+CGraph::m_yquantity[1]:
+In CData: GraphableQuantity g=11
+CGraph::m_yquantity[2]:
+In CData: GraphableQuantity g=12
+CGraph::m_yquantity[3]:
+In CData: GraphableQuantity g=0
+CGraph::title=Current Density
+CGraph::xLabel=
+CGraph::yLabel=
+CGraph::xScale=0
+CGraph::yScale=0
+CProblem::pS:
+In CSolve: ver_num=2
+CSolve::m_SizeFactor=0.5
+CSolve::m_ErrorLimit=1e-009
+CSolve::m_Clamp=5
+CSolve::m_nMaxTime=60
+CSolve::m_bClampPhi=1
+CSolve::m_bClampPsi=1
+CSolve::m_bRenodeEQ=1
+CSolve::m_bRenodeSS=1
+CSolve::m_bRenodeTR=0
+CSolve::m_bGraphsAfterEveryIteration=0
+CSolve::m_bPhiSat=0
+CSolve::m_bStoreNodes=0
+CProblem::pBatch:
+CBatch::m_FileVersion=1
+CBatch::m_Enable=0
+CBatch::m_Filename=
